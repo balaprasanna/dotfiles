@@ -1,0 +1,1 @@
+alias open='nautilus --browser $1 2>/dev/null'
