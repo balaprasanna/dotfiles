@@ -1,1 +1,2 @@
 alias open='nautilus --browser $1 2>/dev/null'
+alias cleard='docker rm $(docker stop $(docker ps -aq))'
